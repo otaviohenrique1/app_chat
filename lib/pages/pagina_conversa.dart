@@ -126,7 +126,7 @@ class _PaginaConversaState extends State<PaginaConversa> {
                             );
                             listaMensagens.add(ConversaMensagem(
                               mensagem: mensagensConversa[
-                                  Random().nextInt(mensagem.length)],
+                                  Random().nextInt(mensagem.length - 1)],
                               tipo: TipoConversaMensagem.contato,
                               nome: nomeContato,
                               dataHora: geraDataHoraFormatada(),
